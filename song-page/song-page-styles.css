@@ -1,0 +1,290 @@
+.description-3{
+    font-size:20px;
+    margin-left:10px;
+}
+
+.hide{
+    display: none;
+}
+
+.description-img{
+    width:320px;
+}
+
+*{
+    font-family: Roboto,Arial;
+}
+
+body{
+    background-color:azure;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+/* this is the header styles*/
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.my-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-img1{
+    width:70px;
+    cursor:pointer;
+}
+
+.heading-img2{
+    width:250px;
+    cursor:pointer;
+}
+
+.b{
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+}
+
+/*everything to do with search in header*/
+
+.search-total form{
+ margin-top: 50px ;
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ width:300px;
+}
+.submit-search{
+ background-color:gainsboro ;
+ border:none;
+ height:35px;
+ flex:1;
+}
+
+.search-bar{
+ flex:7;
+ height: 32px;
+}
+/*end of header section*/
+
+
+/*beginning of main section*/
+main{
+display:grid;
+grid-template-columns: 1fr;
+}
+
+H1{
+    background-color: gainsboro;
+    flex:1;
+}
+
+section{
+    display:flex;
+    flex-direction: row;
+    align-items: top;
+    border-bottom: solid 2px gainsboro;
+    border-top: solid 2px gainsboro;
+    margin-bottom: 10px;
+    
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: top;
+    border-bottom: solid 2px gainsboro;
+    border-top: solid 2px gainsboro;
+    margin-bottom: 10px;
+    
+}
+
+.song-pics{
+    width: 100px; 
+    margin-right:10px;
+}
+
+h3{
+    margin: 0;
+    margin-bottom: 17px;
+    display:none;
+}
+
+h3:hover{
+   color:grey;
+   cursor:pointer;
+}
+
+.song-name{
+    margin: 0;
+    margin-bottom: 17px;
+}
+
+p{
+    font-size: 14px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+/*second section of the main section*/
+
+
+.section2-tag{
+ margin-bottom: 10px;
+
+}
+
+/*end of main section*/
+
+ button{
+    color:aliceblue;
+    background-color:rgb(146, 143, 143);
+    padding:4px 8px;
+    border:none;
+    margin-right: 3px;
+    border-radius: 2px;
+    height:30px;
+    width:50px;
+    transition: 2s;
+}
+
+button:hover{
+    opacity: 0.4;
+    cursor:pointer;
+}
+
+.buttons-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 20px ;
+    margin-bottom: 15px;
+    
+}
+
+
+/*begining of footer section*/
+footer{
+   background-color: gainsboro;
+   margin-top: 20px;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+
+.youtube-iframe{
+    width:340px;
+    height:200px;
+}
+
+.h2{
+    display:none;
+    margin:none;
+}
+
+h4{
+    display:contents;
+    margin: none;
+   
+}
+
+@media screen and (min-width: 767px) {
+     /*@media body*/
+
+     .description-img{
+        width:600px;
+    }
+
+     body{
+        margin: 50px;
+        border: solid 2px gainsboro;
+     }
+
+     h3{
+        margin: 0;
+        margin-bottom: 17px;
+        display:list-item;
+    }
+    
+    .song-name{
+        margin: 0;
+        margin-bottom: 17px;
+        display:none;
+    }
+
+    .song-pics{
+        width: 200px; 
+        margin-right:10px;
+        cursor:pointer;
+    }
+
+    p{
+        font-size: 14px;
+        margin: 0;
+        ;
+    }
+
+    .slant .h2:hover{
+        color:cornflowerblue;
+        cursor:pointer;
+        transition: 1s;
+    }
+
+    /*@media header*/
+    .b{
+        background-color: gainsboro;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+        
+    }
+
+    .b span:hover{
+        color:cornflowerblue;
+        cursor: pointer;
+    }
+
+    .my-logo{
+    margin-bottom: 50px;
+    display:flex;
+    justify-content: center;
+    cursor:pointer;
+    }
+    .heading-img1{
+        width:120px;
+    }
+    .heading-img2{
+        width:420px
+    }
+
+    .search-total form{
+        width:540px;
+    }
+
+
+    /*@media footer*/
+
+    .youtube-iframe{
+        width:560px;
+        height:315px;
+    }
+
+    h4{
+        display:none;
+       
+    }
+
+    .h2{
+        display:contents;
+    }
+
+}
